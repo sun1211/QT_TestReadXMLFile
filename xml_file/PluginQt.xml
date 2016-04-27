@@ -1,0 +1,15 @@
+<plugin>
+	<section name="Example 1">
+		<page name="Demo 1">
+			<attr name="filename" value="Demo1.xml" />
+		</page>
+		<page name="Demo 2">
+			<attr name="filename" value="Demo2.xml" />
+		</page>
+	</section>
+	<section name="Example 2">
+		<page name="Demo 3">
+			<attr name="filename" value="Demo3.xml" />
+		</page>
+	</section>
+</plugin>

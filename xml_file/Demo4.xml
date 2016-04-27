@@ -1,0 +1,53 @@
+<!--Define the controls for Demo4-->
+
+<page name="Demo 3">
+	<control type="text" rect="150 10 1000 100">
+		<attr name="id" value="0" />
+		<attr name="caption" value="****TEST TEXT OBJECT****" />
+		<!--show text-->
+		<attr name="display" value="Output" />		
+	</control>
+
+	
+	<control type="text" rect="10 100 800 100">
+		<attr name="id" value="3" />		
+		<!--doc channel-->
+		<attr name="display" value="Input" />
+		<attr name="an_func" value="read" />
+		<attr name="channel" value="Analog1_In_Temp" />		
+	</control>
+	
+		<control type="text" rect="10 200 800 100">
+		<attr name="id" value="3" />		
+		<!--doc channel-->
+		<attr name="display" value="Input" />
+		<attr name="an_func" value="read" />
+		<attr name="channel" value="Analog2_In_Temp" />		
+	</control>
+	
+		<control type="text" rect="10 300 800 100">
+		<attr name="id" value="3" />		
+		<!--doc channel-->
+		<attr name="display" value="Input" />
+		<attr name="an_func" value="read" />
+		<attr name="channel" value="Analog3_In_Temp" />		
+	</control>
+	
+	
+	<control type="text" rect="10 400 800 100">
+		<attr name="id" value="6" />		
+		<!--doc channel-->
+		<attr name="display" value="Input" />
+		<attr name="an_func" value="read" />
+		<attr name="channel" value="Analog4_In_Temp" />		
+	</control>
+	
+	<control type="text" rect="10 500 800 100">
+		<attr name="id" value="6" />		
+		<!--doc channel-->
+		<attr name="display" value="Input" />
+		<attr name="an_func" value="read" />
+		<attr name="channel" value="Analog5_In_Temp" />		
+	</control>
+	
+</page>

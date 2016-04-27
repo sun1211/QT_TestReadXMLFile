@@ -1,0 +1,69 @@
+<!--Define the controls for Demo3-->
+
+<page name="Demo 3">
+	<control type="text" rect="600 60 800 100">
+		<attr name="id" value="0" />
+		<attr name="caption" value="****TEST READ WRITE LAYOUT****" />
+		<!--show text-->
+		<attr name="display" value="Output" />		
+	</control>
+	
+	<control type="text" rect="400 160 500 100">
+		<attr name="id" value="1" />
+		<attr name="caption" value="Channel Analog18_In" />
+		<!--show text-->
+		<attr name="display" value="Output" />		
+	</control>
+	
+	<control type="lcd" rect="1000 160 500 100">
+		<attr name="id" value="2" />
+		<attr name="an_func" value="read" />
+		<attr name="channel" value="Analog18_In" />
+	</control>
+	
+	<control type="text" rect="400 320 500 100">
+		<attr name="id" value="4" />
+		<attr name="caption" value="Channel Analog34_In" />
+		<!--show text-->
+		<attr name="display" value="Output" />		
+	</control>
+	
+	<control type="lcd" rect="1000 320 500 100">
+		<attr name="id" value="5" />
+		<attr name="an_func" value="read" />
+		<attr name="channel" value="Analog34_In" />
+	</control>
+	
+	<control type="text" rect="400 480 800 100">
+		<attr name="id" value="7" />
+		<attr name="caption" value="Channel Analog0_In" />
+		<!--show text-->
+		<attr name="display" value="Output" />		
+	</control>
+	
+	<control type="dial" rect="1000 500 500 500">
+		<attr name="id" value="8" />
+		<attr name="range" value="0 500 10" /> 
+		<attr name="an_func" value="write" />
+		<attr name="channel" value="Analog0_In" />
+	</control>
+	
+	<control type="button" rect="400 640 400 100">
+		<attr name="id" value="9" />
+		<attr name="caption" value="Read" />
+		<attr name="py_file" value="demo2" />
+		<attr name="py_func" value="fill_axis_2dtable" />
+		
+		<attr name="an_func" value="read" />
+		<attr name="channel" value="Analog0_In" />		
+	</control>	
+	
+	<control type="combobox" rect="400 800 400 100">
+		<attr name="id" value="16" />
+		<attr name="item" value=" " /> 
+		<attr name="item" value="read" /> 
+		<attr name="item" value="write" /> 
+		<attr name="channel" value="Analog0_In" />
+	</control>
+	
+</page>
