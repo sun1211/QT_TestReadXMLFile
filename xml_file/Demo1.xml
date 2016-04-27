@@ -1,0 +1,54 @@
+<!--Define the controls for Demo1-->
+
+<page name="Demo 1">
+	<control type="text" rect="600 60 800 100">
+		<attr name="id" value="0" />
+		<attr name="caption" value="****TEST READ LAYOUT****" />
+		<!--show text-->
+		<attr name="display" value="Output" />		
+	</control>
+	
+	<control type="button" rect="400 160 800 100">
+		<attr name="id" value="1" />
+		<attr name="caption" value="Read Channel Analog0_In" />
+		<attr name="py_file" value="demo2" />
+		<attr name="py_func" value="fill_axis_2dtable" />
+		
+		<attr name="an_func" value="read" />
+		<attr name="channel" value="Analog0_In" />		
+	</control>
+	
+	<control type="button" rect="400 320 800 100">
+		<attr name="id" value="2" />
+		<attr name="caption" value="Read Channel Analog1_In_Temp" />
+		<attr name="py_file" value="demo2" />
+		<attr name="py_func" value="fill_axis_2dtable" />
+		
+		<attr name="an_func" value="read" />
+		<attr name="channel" value="Analog1_In_Temp" />		
+	</control>
+	
+	<control type="button" rect="400 480 800 100">
+		<attr name="id" value="3" />
+		<attr name="caption" value="Read Channel NoiseCancellation" />
+		<attr name="py_file" value="demo2" />
+		<attr name="py_func" value="fill_axis_2dtable" />
+		
+		<attr name="an_func" value="read" />
+		<attr name="channel" value="NoiseCancellation" />
+	</control>
+	
+	<control type="text" rect="400 740 800 100">
+		<attr name="id" value="5" />
+		<attr name="caption" value="Channel Thermocouple0_In+" />
+		<!--show text-->
+		<attr name="display" value="Output" />		
+	</control>
+	
+	<control type="lcd" rect="400 900 800 100">
+		<attr name="id" value="6" />
+		<attr name="an_func" value="read" />
+		<attr name="channel" value="Thermocouple0_In+" />
+	</control>	
+</page>
+
